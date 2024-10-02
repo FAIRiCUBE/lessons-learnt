@@ -1,0 +1,49 @@
+name: UCs lessons learnt dedicated template
+description: This is a template for collecting information about lessons learnt.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        All elements are mandatory.
+  - type: textarea
+    id: uc
+    attributes:
+      label: Reference Use case
+      description: Use case
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: Detailed problem statement description
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Envisaged impact
+      description: Detailed description of the impact of the problem on the project
+    validations:
+      required: true
+  - type: textarea
+    id: hub
+    attributes:
+      label: Affected component of FAIRiCUBE Hub
+      description: FAIRiCUBE Hub component affected by the problem
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Detailed description of the proposed solution.
+    validations:
+      required: true
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Expected benefits
+      description: Detailed description of the benefits of the proposed solution on the project
+    validations:
+      required: false
