@@ -46,4 +46,4 @@ body:
       label: Expected benefits
       description: Detailed description of the benefits of the proposed solution on the project
     validations:
-      required: false
+      required: true
